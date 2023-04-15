@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Apple TV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--NavBar start-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img class="brandName" src="../Assets/Add a heading (1).png"/>
+        </a>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="nav navbar-nav"> 
+        <div class="flexDisplay" id="openTV">
+          <div class="ml-1">
+            <svg height="24" viewBox="0 0 96 96" width="24" xmlns="http://www.w3.org/2000/svg" 
+            class="open_tv_logo" aria-hidden="true"><path d="m90.3078 5.8876c-4.541-4.541-10.791-5.5176-19.6777-5.5176h-45.6054c-8.4961 0-14.795 1.0254-19.336 5.5176-4.4922 4.541-5.4687 10.791-5.4687 19.2871v45.3613c0 8.88673.9277 15.13673 5.4199 19.62892 4.5898 4.49218 10.8398 5.46878 19.6777 5.46878h45.3125c8.8867 0 15.1856-.9766 19.6777-5.46878 4.541-4.54101 5.469-10.74219 5.469-19.62892v-45.0683c0-8.8379-.928-15.0879-5.469-19.5801zm-.586 18.3105v47.6563c0 5.76169-.879 10.888647-3.8573 13.86716-2.9785 3.02735-8.1543 3.90625-13.916 3.90625h-47.9492c-5.7129 0-10.8887-.92773-13.916-3.90625-2.9786-2.978513-3.8086-8.10547-3.8086-13.86716v-47.3633c0-6.0547.83-11.2305 3.8086-14.209 2.9785-3.0273 8.2519-3.8574 14.2578-3.8574h47.6074c5.7617 0 10.9375.9277 13.916 3.9062 3.0273 2.9786 3.8573 8.0567 3.8573 13.8672zm-63.7694 13.1836c3.9551.4395 7.0801-3.9551 6.7871-7.4219-3.9551.1465-6.8848 3.711-6.7871 7.4219zm26.9531-5.0293h-5.0781v5.8106h-3.5156v3.955h3.5156v14.2579c0 4.9316 1.9531 6.6894 7.0312 6.6894 1.0743 0 2.295-.0976 2.6856-.1953v-4.1504c-.1953.1465-1.1231.1465-1.6113.1465-2.002 0-3.0274-.8301-3.0274-3.0762v-13.6719h4.7363v-3.955h-4.7363zm-13.4277 22.0215c-1.9043-.7812-3.0762-2.0508-3.8086-3.8086-.7813-1.9531-.5371-3.9062 0-5.5664.3418-1.123 1.123-2.4902 3.0273-3.6133-1.416-2.1484-3.6621-3.2226-6.2988-3.2226-3.0273 0-4.7851 1.5625-6.2988 1.5625-1.2696 0-2.6367-1.4649-5.0781-1.4649-2.6368 0-4.7364 1.0742-6.1524 2.8321-1.6601 2.0019-2.3437 4.5898-2.3437 7.1777 0 4.2969 1.9531 9.2285 4.7363 12.4023 1.416 1.6602 2.5879 2.4903 3.9551 2.4903 2.0019 0 3.125-1.4649 5.5175-1.4649 1.0254 0 1.9532.4395 2.5391.6348.9766.3906 1.6602.7324 2.832.7324 1.2207 0 2.1973-.4394 2.7832-1.0742 2.1973-2.0508 3.9063-5.0781 4.5899-7.6172zm34.9121 8.4961 8.9355-24.707h-5.5664l-6.0547 19.873-6.3476-19.873h-5.4199l9.1308 24.707z" fill="rgba(235, 235, 245, 0.6)"></path></svg>
+            </div>
+            <div class="ml-1 colorWhite"><span>Open TV</span>
+            <svg class="open_tv_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" height="13" 
+            width="13" aria-hidden="true"><path d="M61.559 47.094V6.638c0-2.456-1.551-4.093-4.05-4.093l-40.456.086c-2.412 0-3.963 1.767-3.963 3.792s1.766 3.748 3.791 3.748h12.796l20.508-.775-7.799 6.893-38.473 38.56c-.776.775-1.207 1.723-1.207 2.628 0 2.025 1.81 3.964 3.921 3.964.99 0 1.896-.388 2.671-1.164l38.517-38.56 6.936-7.798-.818 19.603v13.744c0 1.982 1.723 3.791 3.834 3.791 2.025 0 3.792-1.68 3.792-3.963z" fill="rgba(255,255,255,0.6)"></path></svg>
+        </div>
+      </div>
+      </div>
+        <div class="nav navbar-nav navbar-right flexDisplay">
+          <div>
+            <form action="#">
+            <div class="input-group" id="search-controls">
+            <input type="text" class="form-control search" placeholder="Search" name="search">
+            </div>
+            </form>
+          </div>
+          <div class="ml-1">
+            <button type="button" class="btn btn-primary btn-open" id="sign-in-btn">
+              <span class="glyphicon glyphicon-user"></span> Sign In
+            </button>
+        </div>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <div class="mainPage">
+  <!--NavBar end-->
+  <div class="containerBody">
+    <!--Carousel start-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+        <li data-target="#myCarousel" data-slide-to="10"></li>
+        <li data-target="#myCarousel" data-slide-to="11"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+  
+        <div class="item active">
+          <img src="https://is3-ssl.mzstatic.com/image/thumb/Features112/v4/bb/2c/ae/bb2cae80-b4e9-7193-8a4f-fb1129ad59ca/278c3382-c095-47b3-ba19-d82887d8b13a.png/1679x945sr.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p>
+          </div>
+        </div>
+  
+        <div class="item ">
+          <img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p>
+          </div>
+        </div>
+      
+        <div class="item ">
+          <img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="error" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+
+        <div class="item ">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/738x416.webp" alt="error" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+      
+        <div class="item ">
+          <img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+        <div class="item ">
+          <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+      
+        <div class="item ">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/r85VE266WcKhz9SdLwhb0A/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+        <div class="item ">
+          <img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+      
+        <div class="item ">
+          <img src="https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/1478x832.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+        <div class="item ">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/XoJp7FzEyuPeFp3nZZMHJw/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+      
+        <div class="item ">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+        
+        <div class="item ">
+          <img src="https://is2-ssl.mzstatic.com/image/thumb/_dJgnWG8W30_qMRZYCEx-Q/738x416.webp" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>The Home Of Apple Originals</h3>
+            <p class="movieDescription">Enjoy star-studded,award-winning series,films and more.</p>
+            <button type="button" class="btn">Go To Movie</button>
+            <p class="trialAmount">7 days free then, $6.99/month</p> 
+          </div>
+        </div>
+    
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+  <!--Carousel end-->
+
+  <!--first Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Watch Premieres for Free</h4>
+  <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://staticg.sportskeeda.com/editor/2022/03/5cbee-16487393985079-1920.jpg" alt="error"/></div>
+        <div><img src="https://m.media-amazon.com/images/M/MV5BNjc2ZWY3NjYtM2Q5OS00YTI1LTk5MDktYjYwYTk2Yzc4YTc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" alt="error"/></div>
+        <div><img src="https://filmban.sbs/wp-content/uploads/2022/07/Black-Bird-pos.jpg" alt="error"/></div>
+        <div><img src="https://cdn.mos.cms.futurecdn.net/iUoXE9aruP5ecQE3nJogET.jpg" alt="error"/></div>
+        <div><img src="https://flxt.tmsimg.com/assets/p19780042_b_h9_ae.jpg" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/NuIOgsGJ11I4jRoa7-GbSA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+
+    <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--first Carousel end-->
+  <!--Second Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Most Popular</h4>
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/738x416.webp" alt="error"/></div>
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/Auxgchkiva7ORjAQy9DP6w/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--Second Carousel end-->
+  <!--third Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Watch Entire Seasons</h4>
+  <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Tb1jarRHaWN_SFiMjZcDHw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/WTDZpzkQlaatpb1X4w9jZg/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/NHLksWLSZpTcIw36-n7vWA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/Jj8T9VNcfHfMQ4fDwp31-Q/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--third Carousel end-->
+  <!--fourth Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Latest Originals</h4>
+  <div id="myCarousel4" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/1478x832.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/1478x832.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/h3TFbeh9Dz-zmR7hMf0Jcw/1478x832.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/ba3Q2gHzrcpC69JvKRy_bg/1478x832.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/1478x832.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/1478x832.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/1478x832.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Ogd5vHGYkYpUIzgQCTqBXQ/1478x832.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/xEt4MZZlgE0IeQMnUSG65Q/1478x832.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/ce/7b/70/ce7b7099-6a2c-9183-0da7-40fb57571a00/Bourne_Ultimatum_3840x2160_CoverArt.lsr/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--fourth Carousel end-->
+  <!-- banner start -->
+  <div class="head">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/r85VE266WcKhz9SdLwhb0A/738x416.webp"/>
+  </div>
+  <!-- banner end -->
+   <!--fifth Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Current Hits & Future Releases"</h4>
+  <div id="myCarousel5" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/Features122/v4/7f/a6/73/7fa673cd-a374-f92b-39ce-d6225bc2085c/d4c433fc-e095-43b1-a773-f9dc31b61fe3.lsr/738x416.webp" alt="error"/></div>
+        <div><img src="https://is3-ssl.mzstatic.com/image/thumb/uOy_uvKZZkurSII-QkH1cg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/ce/7b/70/ce7b7099-6a2c-9183-0da7-40fb57571a00/Bourne_Ultimatum_3840x2160_CoverArt.lsr/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/8CWKYRVlULbruOTTdkrGLg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/1478x832.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/i3-hIW27SBl3wPL7E_j6yQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Video123/v4/4a/9c/3f/4a9c3ffb-967e-434d-4159-87c6af100b9f/Bourne_Legacy_3840x2160_CoverArt.lsr/738x416.webp" alt="error"/></div>
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/a4/39/be/a439be29-4c3b-278f-194f-b914d7fa5bd7/PAR_MISSION_IMPOSSIBLE_3_WW_ARTWORK_EN_3840x2160_1MF9LK000000CH.lsr/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/uOy_uvKZZkurSII-QkH1cg/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/1478x832.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel5" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--fifth Carousel end-->
+  <!--Sixth Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Historical Drama</h4>
+  <div id="myCarousel6" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Tb1jarRHaWN_SFiMjZcDHw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/jvpbfkNAZaLIN3DZJUDX8Q/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/vkRecJ7JSiYQecCMWMmzOA/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/oANBVngpEJDvHRhdyozySA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/8593WFOGVTTA1ncIGrL37g/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/2hSgeI8AyyKcpu_6Rhwg1w/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel6" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel6" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--Sixth Carousel end-->
+   <!--Seventh Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">International Intrigue</h4>
+  <div id="myCarousel7" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/vkRecJ7JSiYQecCMWMmzOA/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/XiXPs1AKOFQE7cq7AVlJeQ/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/kVTKGnVvCdFlB1sZeKa8YQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel7" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel7" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--Seventh Carousel end-->
+  
+<!--Eight Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Feel-Good Comedies</h4>
+  <div id="myCarousel8" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/XoJp7FzEyuPeFp3nZZMHJw/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/IyvoDdhWEjtSADaSryepIw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/XoJp7FzEyuPeFp3nZZMHJw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/f5MpOY_Tglwyv9W9lwutqg/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/le6mxqLNaXH47MHIH7stzw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel8" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel8" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--Eighth Carousel end-->
+  <!--  carousel start -->
+
+ 
+<div class="containerBody2">
+  
+  <div id="myCarousel9" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images1">
+        <div><img src="https://staticg.sportskeeda.com/editor/2022/03/5cbee-16487393985079-1920.jpg" alt="error"/></div>
+       
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images1">
+          <div><img src="https://cdn.mos.cms.futurecdn.net/iUoXE9aruP5ecQE3nJogET.jpg" alt="error"/></div>
+          
+        </div>
+      </div>
+      <div class="item">
+        <div class="images1">
+          <div><img src="https://m.media-amazon.com/images/M/MV5BNjc2ZWY3NjYtM2Q5OS00YTI1LTk5MDktYjYwYTk2Yzc4YTc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" alt="error"/></div>
+          
+        </div>
+      </div>
+  
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel9" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel9" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!-- carousel end-->
+  <!--ninth Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">All Feature Films</h4>
+  <div id="myCarousel20" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://staticg.sportskeeda.com/editor/2022/03/5cbee-16487393985079-1920.jpg" alt="error"/></div>
+        <div><img src="https://m.media-amazon.com/images/M/MV5BNjc2ZWY3NjYtM2Q5OS00YTI1LTk5MDktYjYwYTk2Yzc4YTc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" alt="error"/></div>
+        <div><img src="https://filmban.sbs/wp-content/uploads/2022/07/Black-Bird-pos.jpg" alt="error"/></div>
+        <div><img src="https://cdn.mos.cms.futurecdn.net/iUoXE9aruP5ecQE3nJogET.jpg" alt="error"/></div>
+        <div><img src="https://flxt.tmsimg.com/assets/p19780042_b_h9_ae.jpg" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/CXnyehPcDHEauavhg0D79Q/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/_vkF4kzNiSCdmWsVNp0gjw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/CUcDZ-At1_oNSxrwvuRguA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel20" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel20" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--ninth Carousel end-->
+  <!--tenth Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">All Nonfiction Series</h4>
+  <div id="myCarousel21" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/nnWkHXH4wyIt0sZovHx0tA/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/rbA884KpTpFowJZ9t08rhw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/XtNPMhEaBU1FKkk_QK-DeA/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/q15eqXAa_XH-L0KIDkPBJA/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Ulms3rha_yDCvDVlZyYUoQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/h3TFbeh9Dz-zmR7hMf0Jcw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/6kPVBOcFxH5eWRVp9Vy9BA/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/PzRfPYv8-A3pM1Uafiv1qQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/xW-YFC38wO80XQewW5Mn7A/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel21" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel21" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--tenth Carousel end-->
+  <!--eleven Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Cuddly Critters</h4>
+  <div id="myCarousel22" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/ba3Q2gHzrcpC69JvKRy_bg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/r85VE266WcKhz9SdLwhb0A/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/_dJgnWG8W30_qMRZYCEx-Q/738x416.webp" alt="error"/></div>
+        <div><img src="https://is1-ssl.mzstatic.com/image/thumb/ztml996EQMN-hkl3rjIlsw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/StRHuSLsy2WhrdoPNZ07xQ/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/ztml996EQMN-hkl3rjIlsw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is2-ssl.mzstatic.com/image/thumb/StRHuSLsy2WhrdoPNZ07xQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/_Kq-GgPdDxxqWtSZ9GbHug/738x416.webp" alt="error"/></div>
+          <div><img src="https://is5-ssl.mzstatic.com/image/thumb/SWMzy9YGQFSOSHOy5DoJ2w/738x416.webp" alt="error"/></div>
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/_WDO4pxq_b43sYn1s-nJQg/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel22" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel22" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--eleven Carousel end-->
+  <!--twelve Carousel start-->
+<div class="containerBody1">
+  <h4 class="heading">Fun for All</h4>
+  <div id="myCarousel23" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="images">
+        <div><img src="https://is2-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/azl01cnlPNX4vWe7Q8E3Uw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is4-ssl.mzstatic.com/image/thumb/1FPWAdToHsWvrQe8tbCcqQ/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/P-1f-E_Qew_9syoQd34Wlw/738x416.webp" alt="error"/></div>
+        <div><img src="https://is5-ssl.mzstatic.com/image/thumb/owNSUO3F109RC75YDPMY7A/738x416.webp" alt="error"/></div>
+      </div>
+      </div>
+  
+      <div class="item">
+        <div class="images">
+          <div><img src="https://is4-ssl.mzstatic.com/image/thumb/ba3Q2gHzrcpC69JvKRy_bg/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/Ogd5vHGYkYpUIzgQCTqBXQ/738x416.webp" alt="error"/></div>
+          <div><img src="https://is3-ssl.mzstatic.com/image/thumb/xEt4MZZlgE0IeQMnUSG65Q/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/ztml996EQMN-hkl3rjIlsw/738x416.webp" alt="error"/></div>
+          <div><img src="https://is1-ssl.mzstatic.com/image/thumb/r85VE266WcKhz9SdLwhb0A/738x416.webp" alt="error"/></div>
+        </div>
+      </div>
+  
+      
+  
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel23" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <a class="right carousel-control" href="#myCarousel23" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+<div><hr></div>
+  <!--twelve Carousel end-->
+  
+
+    <div class="last">
+<div class="one"><img src="../Assets/Add a heading (1).png" alt="error"/></div>
+<div class="second">
+  <h1>Watch Apple TV+ here or anywhere.</h1><br>
+  <h5>Find Apple TV+ on the Apple TV app,available on Apple devices,smart TVs, and more.</h5>
+  <br>
+  <p>See all supported devices ></p>
+  <br>
+</div>
+<div class="two">
+ <div><img src="https://tv.apple.com/assets/icons/product_landing_apple_tv_wht-2d0f1bf87f69645b296f58815bae784c.png" alt="error"/>
+<h5>Apple TV</h5></div>
+ <div><img src="https://tv.apple.com/assets/icons/product_landing_iPhone_wht-8ef88627a27c66699f368cc429cc94a8.png" alt="error"/>
+<h5>iPhone</h5></div>
+ <div><img src="https://tv.apple.com/assets/icons/product_landing_mac_wht-37e6f73080a15fe8a35b85e7ba8f5468.png" alt="error"/>
+<h5>iPad</h5></div>
+ <div><img src="https://tv.apple.com/assets/icons/product_landing_mac_wht-37e6f73080a15fe8a35b85e7ba8f5468.png" alt="error"/>
+<h5>Mac</h5></div>
+ <div><img src="https://tv.apple.com/assets/icons/product_landing_airplay_wht-f348507fa5bdc6b005b126f0654aa663.png" alt="error"/>
+<h5>AirPlay</h5></div>
+  
+</div>
+<div class="three">
+  <h4>See it on your big screen</h4>
+  <p>set up your device ></p>
+  <p>Explore compatible devices ></p>
+</div>
+<div class="four">
+  <div><img src="https://tv.apple.com/assets/icons/banner_usb_lrg_wht-67ed29cf6e5f5add9b2814937f976197.png" alt="error"/>
+  <h5>Streaming Devices</h5><p>Roku</p><p>Fire TV</p><p>Google TV</p></div>
+  <div><img src="https://tv.apple.com/assets/icons/banner_tv_lrg_wht-e0ef12292435df4d9416312f322dbe32.png" alt="error"/>
+    <h5>Smart TVs</h5><p>samsung</p><p>lG</p><p>VIZIO</p></div>
+  <div><img src="https://tv.apple.com/assets/icons/banner_controller_lrg_wht-5eca7993879258c2ff5e8425055643b6.png" alt="error"/>
+    <h5>Gaming Consoles</h5><p>PlayStation</p><p>Xbox</p></div>
+</div>
+<div class="five">
+  <p>Device availability varies by country or region.</p>
+</div>
+</div>
+<div class="Acc">
+  <h1>Questions ? Answers .</h1>
+</div>
+
+
+
+
+<div class="lasti">
+<button class="accordion">What is Apple TV+?</button>
+<div class="panel">
+  <p>Apple&nbsp;TV+ is a streaming service from Apple. It features exclusive Apple&nbsp;Original shows and movies from some of the industry's top talent, with new premieres arriving each month.  Browse all of the available content on Apple&nbsp;TV+ inside the Apple&nbsp;TV app on the “Apple&nbsp;TV+” tab or here on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;WhatIsTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>.</p>
+</div>
+<hr>
+
+<button class="accordion">What does Apple TV+include?</button>
+<div class="panel">
+  <p>Apple&nbsp;TV+ includes Apple&nbsp;Original films and series—which are original shows and movies made exclusively for Apple. It also includes free access for anyone to watch Friday&nbsp;Night&nbsp;Baseball, provided through Apple&nbsp;TV+ in partnership with MLB (Major&nbsp;League&nbsp;Baseball). New shows and movies are being added to the streaming service often, so browse inside the Apple&nbsp;TV app or visit <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;WhatDoesTVPlusIncludeTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a> often to see new releases.</p>
+</div>
+<hr>
+
+<button class="accordion">Where can I watch Apple TV+?</button>
+<div class="panel">
+  <p>Apple&nbsp;TV+ is an exclusive streaming subscription available in the Apple&nbsp;TV app. You can find Apple&nbsp;TV app on many of your favorite Apple devices. Plus, find the app on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/guide/tvplus/welcome/web&quot;,&quot;targetId&quot;:&quot;TVAppAllDevices&quot;}" target="_blank" href="https://support.apple.com/guide/tvplus/welcome/web" tabindex="0">many smart TVs, streaming devices, game consoles, and some select cable boxes</a>.</p>
+</div>
+<hr>
+<button class="accordion">Can I watch Apple TV+ on my phone?</button>
+<div class="panel">
+  <p>Apple&nbsp;TV+ is a streaming service that lives inside the Apple&nbsp;TV app—an app that brings Apple&nbsp;TV+ together with <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/HT209670&quot;,&quot;targetId&quot;:&quot;OtherStreamingServicesOnTVApp&quot;}" target="_blank" href="https://support.apple.com/HT209670" tabindex="0">other streaming service subscriptions that you add</a>. You can find the <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/guide/tvplus/apd5a38547d1/1.0/web/1.0&quot;,&quot;targetId&quot;:&quot;TVAppAppleDevices&quot;}" target="_blank" href="https://support.apple.com/guide/tvplus/apd5a38547d1/1.0/web/1.0" tabindex="0">Apple&nbsp;TV app on iPhone, iPad, Apple&nbsp;TV&nbsp;4K or HD</a>, plus on many streaming devices and smart TVs like <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/guide/tvplus/apda10aaed81/1.0/web/1.0&quot;,&quot;targetId&quot;:&quot;TVAppThirdPartyDevices&quot;}" target="_blank" href="https://support.apple.com/guide/tvplus/apda10aaed81/1.0/web/1.0" tabindex="0">Roku, Samsung, LG, Panasonic, and more</a>.</p>
+</div>
+<hr>
+
+<button class="accordion">How to watch Apple TV+ on Android or Windows? </button>
+<div class="panel">
+  <p>The easiest way to watch Apple&nbsp;TV+ on an Android phone or Windows device is to visit <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;HowToWatchWindowsAndroidTVHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>. There, you can still sign in with an Apple&nbsp;ID, add Apple&nbsp;Original shows and movies to your Up&nbsp;Next watchlist, and keep track of what you're watching.</p>
+</div>
+<hr>
+<button class="accordion">What can I watch on Apple TV+? </button>
+<div class="panel">
+  <p>There are many movies to choose from on Apple&nbsp;TV+ and new Apple&nbsp;Original films are being added frequently. The best way to see what movies are on Apple&nbsp;TV+ is to browse the Apple&nbsp;TV+ tab inside the Apple&nbsp;TV app or here on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;WhatMoviesOnTVPlusTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>. You'll find many award-winning films to choose from, like Academy&nbsp;Award-winner for Best Picture CODA or the critically-acclaimed The Tragedy of Macbeth. Or choose from hits like Greyhound, Swan Song, Wolfwalkers, and more.</p>
+</div>
+<hr>
+<button class="accordion"> How do I get Apple TV+</button>
+<div class="panel">
+  <p>More Apple&nbsp;Original series are being added to the TV app frequently, so check back often to discover new TV shows on Apple&nbsp;TV+. Start by browsing in the Apple&nbsp;TV+ tab on the Apple&nbsp;TV app or here on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;WhatCanIWatchTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>. You'll find hits like the Emmy-winning Ted Lasso, critically-acclaimed The Morning Show, and sci-fi epic Foundation, plus new and popular shows like Severance, Slow Horses, and WeCrashed.</p>
+</div>
+<hr>
+<button class="accordion"> Can I get Apple TV+ for free?</button>
+<div class="panel">
+  <p>You can subscribe to Apple&nbsp;TV+ inside the Apple&nbsp;TV app on your <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/guide/tvplus/welcome/web&quot;,&quot;targetId&quot;:&quot;MobileOrLivingRoomDevice&quot;}" target="_blank" href="https://support.apple.com/guide/tvplus/welcome/web" tabindex="0">mobile or living room device</a> or on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;HowDoIGetTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>. Your subscription to Apple&nbsp;TV+ will use the payment method associated with your Apple&nbsp;ID, which is your one sign-in for all things Apple. With one Apple account, it’s easy to <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/HT204939&quot;,&quot;targetId&quot;:&quot;ManageYourSubscriptionInSettings&quot;}" target="_blank" href="https://support.apple.com/HT204939" tabindex="0">manage your subscription in Settings</a> on any device or on <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;HowDoIGetTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>.</p>
+</div>
+<hr>
+<button class="accordion"> How do I cancel Apple TV+</button>
+<div class="panel">
+  <p>There are a few ways to try Apple&nbsp;TV+ for free. First, try 7 days of Apple&nbsp;TV+ for free by starting a trial in the Apple&nbsp;TV app on your iPhone, iPad, Apple&nbsp;TV&nbsp;4K or HD, or on any streaming device. If you’ve recently purchased Apple hardware that includes a 12-month, 6-month, or 3-month or other complimentary free trial of Apple&nbsp;TV+, this offer will automatically appear in the Apple&nbsp;TV app when signed in with the Apple&nbsp;ID associated with your recent hardware purchase.</p>
+</div>
+<hr>
+<button class="accordion"> How do I share Apple TV+ with my family?</button>
+<div class="panel">
+  <p>The easiest way to cancel an Apple&nbsp;TV+ subscription is to go to Settings on an Apple device like an iPhone. Open the app, choose your name, then select Subscriptions and choose Apple&nbsp;TV+. You can also manage your Apple&nbsp;TV+ subscription at <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://tv.apple.com/&quot;,&quot;targetId&quot;:&quot;HowDoICancelTVPlusTVPlusHomePage&quot;}" target="_blank" href="https://tv.apple.com/" tabindex="0">tv.apple.com</a>. Sign in and choose the account icon in the top right corner.</p>
+</div>
+<hr>
+<button class="accordion"> Is Apple TV+ accessible?                             ^</button>
+<div class="panel">
+  <p>Apple&nbsp;TV+ is part of the Apple&nbsp;TV app, which includes many accessibility features—so you only have to focus on enjoying Apple&nbsp;Original shows and movies. All Apple&nbsp;Originals support Closed Captions and SDH (subtitles for the Deaf and Hard of Hearing) in addition to audio descriptions; plus the entire app supports VoiceOver, Apple’s built-in screenreader. Bold Text, Increase Contrast, and Reduce Motion settings are also available. Subtitles are supported for 40+ languages for all Apple&nbsp;TV+ titles. <a data-metrics-click="{&quot;actionType&quot;:&quot;open&quot;,&quot;targetType&quot;:&quot;link&quot;,&quot;actionUrl&quot;:&quot;https://support.apple.com/guide/tvapp/accessibility-features-atvbaeff85db/web&quot;,&quot;targetId&quot;:&quot;LearnMoreAboutAccessibilityOptions&quot;}" target="_blank" href="https://support.apple.com/guide/tvapp/accessibility-features-atvbaeff85db/web" tabindex="0">Learn about more accessibility options in the Apple&nbsp;TV app.</a></p>
+</div>
+<hr>
+</div>
+</div>
+
+<div class="searchPage">
+  <div class="start">
+    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/670x377.webp"/></div>
+    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/670x377.webp"/></div>
+</div>
+<div class="start">
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/670x377.webp"/></div>
+    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/670x377.webp"/></div>
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/CUcDZ-At1_oNSxrwvuRguA/670x377.webp"/></div>
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/670x377.webp"/></div>
+    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/670x377.webp"/></div>
+</div>
+<div class="start">
+    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/670x377.webp"/></div>
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/CXnyehPcDHEauavhg0D79Q/670x377.webp"/></div>
+    <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/670x377.webp"/></div>
+    <div><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/670x377.webp"/></div>
+</div>
+<div class="start">
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/670x377.webp"/></div>
+    <div><img src="https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/670x377.webp"/></div>
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/Auxgchkiva7ORjAQy9DP6w/670x377.webp"/></div>
+    <div><img src="https://is3-ssl.mzstatic.com/image/thumb/HGw-QzsXlYUDp68NCOvxZQ/670x377.webp"/></div>
+    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/L79If4rL5GAF2ffGc7jBRg/670x377.webp"/></div>
+</div>
+<div class="start">
+    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/ztml996EQMN-hkl3rjIlsw/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/dbEKo7rp5RGNNDrCbA7AUQ/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/lQggjzswj8ZD1hym1_oVGQ/670x377.webp"/></div>
+    <div><img src="https://is1-ssl.mzstatic.com/image/thumb/yXhlXOFkS9yJ1kMmOhfIbg/670x377.webp"/></div>
+    <div><img src="https://is2-ssl.mzstatic.com/image/thumb/le6mxqLNaXH47MHIH7stzw/670x377.webp"/></div>
+</div>
+
+</div>
+
+<div class="bottom">
+  <div class="bottomLeft">
+    <p>Copyright @ 2022 Apple Inc. All rights reserved.</p>
+    <p>Internet Service Terms | Apple TV & Privacy | cookie Policy | Support</p>
+    </div>
+  <div class=bottomRight>
+  <p>United states</p>
+  </div>
+</div>
+<div class="footer">
+  <div class="footerRight">
+    <h4>All Apple Originals</h4>
+    <p>Start watching with 7 days free.Or 3 months 
+      free when you buy an eligible Apple device.<span class="text">Terms apply.</span></p>
+  </div>
+  <div class="footerLeft">
+    <button><h5>Start Free Trial</h5></button>
+    <p>7 days free,then $6.99/month.<p>
+  </div>
+</div>
+
+
+<section class="modal hidden">
+  <div class="flex">
+    <div class="logo">
+    <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple_logo_grey.png" width="50px" height="50px" alt="user" />
+  </div>
+    <div class="logi"><button class="btn-close">⨉</button></div>
+  </div>
+  <div>
+    <h3>Sign in with your Apple ID</h3>
+    <p>
+     You will be signed to Apple TV and Apple Music
+    </p>
+  </div>
+
+  <input type="email" id="email" placeholder="Apple ID" />
+  <button class="btn">Submit</button>
+  <div>
+    <p>Create New Apple ID ></p>
+    <p>Forgot Apple ID or Password?</p>
+  </div>
+</section>
+
+<div class="overlay hidden"></div>
+
+</body>
+</html>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+
+  let openTv = document.getElementById("openTV");
+  openTv.addEventListener("click", ()=>{
+  let text = "https://tv.apple.com wants to open this application.\nEither OK or Cancel.";
+  if (confirm(text) == true) {
+    text = "You pressed OK!";
+  } else {
+    text = "You canceled!";
+  }
+  });
+
+  document.getElementsByClassName("searchPage")[0].style.display = "none";
+  let searchInput = document.getElementById("search-controls").getElementsByTagName("input")[0];
+  document.getElementsByTagName("body")[0].addEventListener("click", ()=>{
+  if(searchInput == document.activeElement)
+  {
+    document.getElementsByClassName("mainPage")[0].style.display = "none";
+    document.getElementsByClassName("searchPage")[0].style.display = "block";
+  }else{
+    document.getElementsByClassName("mainPage")[0].style.display = "block";
+    document.getElementsByClassName("searchPage")[0].style.display = "none";
+  }
+});
+
+  const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".overlay");
+const openModalBtn = document.querySelector(".btn-open");
+const closeModalBtn = document.querySelector(".btn-close");
+const openModal = function () {
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+  };
+  openModalBtn.addEventListener("click", openModal);
+  const closeModal = function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
+
+closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+document.addEventListener("keydown");
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    modalClose();
+  }
+});
+  </script>
